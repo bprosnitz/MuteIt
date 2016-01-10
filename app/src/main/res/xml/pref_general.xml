@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textMultiLine"
+        android:key="muted_apps"
+        android:minLines="6"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:title="@string/pref_title_display_name" />
+
+</PreferenceScreen>
